@@ -17,8 +17,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   });
 </script>
    </head>
- <body>
- 
+<body>
+ <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   
   <title>EuroMotors</title>
    
@@ -69,12 +76,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="https://www.facebook.com/EuroMotorsEM/" class="fa fa-linkedin-square" style="font-size:48px;color:#00c3ff;position:absolute;top:30px;right:10px"></a> 
       <a href="https://www.instagram.com/euromotors_em/" class="fa fa-instagram" style="font-size:48px;color:#blue;position:absolute;top:30px;right:210px"></a> 
     
-        
+        <div class="fb-share-button" data-href="http://euromotorsevents.cf/" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Feuromotorsevents.cf%2F&amp;src=sdkpreparse">Delen</a></div>
         
     </div>
   </div>
 </nav>
-
 
 
 <!-- Images (Portfolio) -->
